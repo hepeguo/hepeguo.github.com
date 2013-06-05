@@ -67,7 +67,6 @@ var guo = function() {
                             if (pages[i].state !== -1) {
                                 pages[i].state--;
                             }
-                            console.log(footers[i])
                             footers[i].style.border = "1px solid black";
                         }
                         pages[((self.i - 2) % mLength + mLength) % mLength].state = -1;

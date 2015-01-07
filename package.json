@@ -1,0 +1,13 @@
+{
+    "name": "hepeguo",
+    "version": "0.0.1",
+    "description": "a web developer",
+    "author": "guozhenyong <hepeguo@gmail.com>",
+    "dependencies": {
+        "jquery": ">=2.1.3"
+    },
+    "main": "js/imgGeneretor",
+    "scripts": {
+        "start": "node imgGeneretor.js"
+    }
+}

@@ -40,3 +40,6 @@ h3 {
 .first {
     background: rgb(114, 191, 155);
 }
+img {
+    border-radius: 25px;
+}

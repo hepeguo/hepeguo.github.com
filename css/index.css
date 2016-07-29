@@ -18,6 +18,11 @@ body, html, table, section, canvas, a {
     padding: 0;
     color: #666;
 }
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 tr {
     text-align: center;
 }

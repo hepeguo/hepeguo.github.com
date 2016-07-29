@@ -11,49 +11,23 @@ rgb(236, 250, 114)*/
     -webkit-box-sizing: border-box;
     font-family: Arial, sans-senif, Helvetica;
 }
-body, html, table, section, canvas {
+body, html, table, section, canvas, a {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    color: #666;
+}
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 tr {
     text-align: center;
 }
-h1, h2, h3 {
-    /*text-transform: uppercase;*/
-}
-h1 {
-    color: rgb(250, 128, 114); 
-}
-h2 {
-    color: rgb(250, 173, 114);
-}
-h3 {
-    color: rgb(250, 218, 114);
-    margin-bottom: 12px;
-}
-h5 {
-    color: #ffffff;
-    text-align: left;
-    margin-bottom: 24px;
-    font-size: 18px;
-    font-weight: normal;
-}
 a {
     text-decoration: none;
-}
-/*reset style --- end*/
-.ui-label {
-    margin-right: 8px;
-    display: inline-block;
-}
-.first {
-    background: rgb(114, 191, 155);
-}
-.second {
-    background: rgb(250, 128, 114);
-    padding: 12px;
 }
 img {
     border-radius: 25px;

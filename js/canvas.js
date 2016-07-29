@@ -13,8 +13,8 @@
     };
 
     var draw = function(height, width) {
-        ctx.fillStyle = "rgb(250, 173, 114)";
-        ctx.strokeStyle = "rgb(236, 250, 114)";
+        ctx.fillStyle = "#fff";
+        ctx.strokeStyle = "#eee";
         ctx.fillRect(0, 0, width, height);
 
         ctx.beginPath();
